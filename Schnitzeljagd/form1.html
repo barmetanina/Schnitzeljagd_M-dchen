@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body class="w3-light-gray w3-panel w3-padding-48">
-    <!-- Hauptinhalt Kommentar Test-->
+    <!-- Hauptinhalt-->
     <div class="w3-container w3-white w3-margin-top w3-padding-16 w3-card-4">
         <h2 class="w3-center">Weiter gehts</h2>
         <p class="w3-center">Gehe nun nach rechts. Dein Ziel ist das Sekretariat des BBZW Sursee. Welche Zimmernummer hat das Sektretariat?</p>
@@ -17,18 +17,18 @@
             <label class="w3-text-cyan" for="eingabefeld">Zimmernummer des Sekretariats vom BBZW Sursee</label>
             <input class="w3-input w3-border" type="text" id="eingabefeld" name="eingabefeld" pattern="0.14" title="Pass auf, dass du nicht beim Sekretariat vom BBZ*G* landest." required placeholder="0.00">
             <div class="w3-row">
-                <div class="w3-col s6">
+              <div class="w3-col s6">
+                <a onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-light-gray w3-margin-top">Tipp öffnen</a>
+            </div>
+                <div class="w3-col s6 >"> <!--text-align-right einfügen-->
                     <button class="w3-button w3-cyan w3-margin-top" type="submit">Weiter</button>
-                </div>
-                <div class="w3-col s6">
-                    <a onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-light-gray w3-margin-top">Tipp öffnen</a>
                 </div>
                 </div>
             </div>
         </form>
     </div>
 </body>
-<!--Modal Window Marius-->
+<!--Modal Window-->
 <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-cyan"> 
